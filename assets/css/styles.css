@@ -159,6 +159,30 @@ main {
     color: #ffffff;
 }
 
+/* Times Section */
+
+#times {
+    background: url("../images/dublin-city.webp") no-repeat center / cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times h3 {
+    /*Override the heading colour set in general style*/
+    color: #fafafa;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding:15px;
+    text-align: center;
+    flex: 1 0 200px; 
+    /*Creates a grid of meetup time dives over the background image*/
+    border: 2px solid #fafafa;
+}
+
+
 /* Footer Section */
 
 #social-networks {
