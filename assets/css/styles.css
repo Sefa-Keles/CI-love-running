@@ -133,6 +133,23 @@ main {
     margin-bottom: 20px;
 }
 
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat top center / cover;
+    width: 90vw;
+    height: 90vh;
+    margin-bottom: 20px;
+    /* makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent*/  
     background-color: rgba(241, 109, 107, .7); 
