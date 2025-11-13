@@ -132,3 +132,11 @@ footer {
         margin-top: 76px;
     }
 }
+
+@media (min-width:992px) {
+    /* Header */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
+
