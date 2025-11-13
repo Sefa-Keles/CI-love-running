@@ -29,7 +29,7 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 
@@ -88,10 +88,35 @@ main {
     background-color: lightskyblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 39px;
+    margin-top: 40px;
 }
 
 /* Footer Section */
 footer {
     background-color: orange;
+}
+
+/* Media Queries for larger screens */
+
+/* Header */
+@media (min-width:768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }    
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
