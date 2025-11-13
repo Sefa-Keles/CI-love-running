@@ -15,8 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color:#3a3a3a;
-    font-family: "Simonetta", "Lato", Arial, sans-serif;
-    font-weight: 400;
+    font-family: 'Lato', sans-serif;
 
 }
 
@@ -24,6 +23,11 @@ body {
 header {
     background-color: lightcoral;
 }
+
+h1 {
+    font-family: "Simonetta", serif;
+}
+
 
 /* Main Section */
 main {
