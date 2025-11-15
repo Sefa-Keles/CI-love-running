@@ -186,6 +186,17 @@ main {
     border: 2px solid #fafafa;
 }
 
+#photos img {
+    width: 100%;
+    /*If there is a wrong path in the images the source alt text will appear*/
+    line-height: 1em;
+}
+
+#photos {
+    /* div's line height was changed because there was space between images */
+    line-height: 0;
+}
+
 
 /* Footer Section */
 
