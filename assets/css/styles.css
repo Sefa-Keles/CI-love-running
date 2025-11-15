@@ -214,6 +214,15 @@ main {
     color: #3a3a3a;
 }
 
+/*Media Queries for mobile phones and landscape mode*/
+@media (min-width:576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+
 /* Media Queries for larger screens */
 
 /* Header */
@@ -274,12 +283,22 @@ main {
         text-align: end; 
         align-self: flex-end;
     }
+
+    /*Gallery*/
+    #photos {
+        column-count: 3;
+    }
 }
 
 @media (min-width:992px) {
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /*Gallery*/
+    #photos {
+        column-count: 4;
     }
 }
 
