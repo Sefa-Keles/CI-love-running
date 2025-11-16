@@ -34,38 +34,38 @@
         </nav>
     </header>
     <!--Main Content Section-->
-    <main>
-        <section id="sign-up">
-            <h2>
-                <i class="fa-solid fa-heart-pulse"></i>
-                LET'S GET YOU SIGNUP!</h2>
-            <form class="signup-form" method="post" action="https://formdump.codeinstitute.net">
-                <label for="first-name">First Name:</label>
-                <input type="text" id="first-name" class="text-input" name="firstname" required>
-                <br>
-                <label for="last-name">Last Name:</label>
-                <input type="text" id="last-name" class="text-input" name="lastname" required>
-                <br>
-                <label for="email-address">Email Address:</label>
-                <input type="email-address" id="email" class="text-input" name="email" required>
-                <br>     
-                <div class="radio-buttons">
-                    <div>
-                        <input type="radio" id="road" name="running-preference" value="Road" checked required>
-                        <label for="road">Road</label>
+    <main id="signup-page">
+        <section id="signup">
+            <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
+                <h2>
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    LET'S GET YOU SIGNUP!
+                </h2>
+                <div class="form-container">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" class="text-input" name="firstname" required>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" class="text-input" name="lastname" required>
+                    <label for="email-address">Email Address:</label>
+                    <input type="email" id="email-address" class="text-input" name="email" required>
+                    <div class="radio-buttons">
+                        <div>
+                            <input type="radio" id="road" name="running-preference" value="Road" checked required>
+                            <label for="road">Road</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="trail" name="running-preference" value="Trail" required>
+                            <label for="trail">Trail</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="both" name="running-preference" value="Both" required>
+                            <label for="both">Both</label>
+                        </div>
                     </div>
-                    <div>
-                        <input type="radio" id="trail" name="running-preference" value="Trail" required>
-                        <label for="trail">Trail</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="both" name="running-preference" value="Both" required>
-                        <label for="both">Both</label>
-                    </div>
+                    <button type="submit" class="join-button">
+                        Let's Run!
+                    </button>
                 </div>
-                <button type="submit" class="join-button">
-                    Let's Run!
-                </button>
             </form>
         </section>
     </main>
